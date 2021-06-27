@@ -17,7 +17,7 @@ app.render("public/index.html");
 
 const server = app.listen(app.get('port'));
 
-const io = SocketIO(server);
+const io = SocketIO("ws://chat-socket-io-simple.herokuapp.com");
 
 io.on('connection',(socket)=>{
     console.log("new connection",socket.id);
