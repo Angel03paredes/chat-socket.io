@@ -1,0 +1,60 @@
+.col{
+    max-width: 300px;
+    height: auto;
+    padding: 10px 10px;
+    margin: auto auto;
+    box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.4); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input , textarea {
+    margin: 10px  0px;
+    padding: 5px;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+button{
+    background-color: darkblue;
+    border-radius:3em;
+    border-width: 0px;
+    color: white;
+    font-size: 1rem;
+}
+
+.messages{
+    max-width: 30%;
+    height: auto;
+    padding: 0px 50px;
+    margin-left: 35% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keypress{
+    height: 20px;
+    font-size: 0.75rem;
+    color:rgb(145, 144, 144);
+    margin:0px 0px;
+    overflow: hidden;
+}
+
+.msg{
+    margin: 0px 0px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.output{
+   height: 50vh; 
+   overflow: scroll;
+}
+
+.d-inline{
+    display: inline;
+}
