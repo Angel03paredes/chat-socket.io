@@ -1,4 +1,4 @@
-const socket = io("https://chat-socket-io-simple.herokuapp.com");
+const socket = io();
 
 var users = [];
 var scroll ;
